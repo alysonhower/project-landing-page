@@ -6,9 +6,10 @@
 
 .hero {
     background-color: #1F2937;
-    padding: 28px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
 }
 
 
@@ -20,6 +21,7 @@
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 ul {
@@ -33,9 +35,40 @@ ul {
     gap: 25px;
 }
 
+.hero-main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 50px;
+}
+
 .hero-main-text {
-    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.hero-main-text-title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+
+.hero-main-text-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 5px 32px;
+    border-radius: 10px;
+    border: none;
+}
+
+img {
+    height: 300px;
 }
